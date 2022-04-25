@@ -8,9 +8,9 @@ const { USER, PASS } = AUTH;
 export const nodemailerTransporter = nodemailer.createTransport({
   host: HOST,
   port: PORT,
-  secure: false,
   auth: {
     user: USER,
     pass: PASS,
   },
 });
+

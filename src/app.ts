@@ -11,7 +11,7 @@ const { USER } = AUTH;
 
 const emailOptions = {
   from: `Tiago Santos <${USER}>`,
-  to: 'tiagosan040@gmail.com',
+  to: '', // YOUR E-MAIL HERE
   subject: 'Teste nodemailer',
   html: emailTemplate,
 };
